@@ -1,0 +1,125 @@
+
+.img {
+  /* position: relative;
+  width: 100vw; */
+  height: 100vh;
+  background: url('../img3.jfif');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.page3paragraph{
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.page1heads{
+  text-align: center;
+    margin-bottom: 10px;
+}
+.container-page2{
+  margin: 20px;
+  background-color: #7a7a7e;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/*#7a7a7e*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+header {
+  margin: 40px;
+  background-color:#7a7a7e;
+  text-align: center;
+  padding: 10px;
+}
+.page3{
+  background-color: #7a7a7e;
+  padding: 50px;
+  box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  display: flex;
+}
+
+.skills-section {
+  text-align: center;
+  color:rgb(92, 83, 83);
+}
+.skills-section,
+.colored-divs-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.skills {
+  text-align: center;
+  color: black;
+}
+
+.skill-item {
+  margin: 10px 0;
+}
+
+.colored-div1 {
+  width: 100px;
+  height: 20px;
+  margin: 10px 0;
+  color: rgb(92, 83, 83);
+  text-decoration: underline;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #282c34;
+}
+.colored-div2{
+  background-color: rgb(92, 83, 83);
+  text-decoration: underline;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #282c34;
+}
+.page4{margin: 100px;}
+.footersection1{
+  text-align: left;
+  color: white;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
