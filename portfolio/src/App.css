@@ -1,16 +1,13 @@
 
 .img {
-  /* position: relative;
-  width: 100vw; */
   height: 100vh;
-  background: url('../img3.jfif');
+  background: url('https://cdn.pixabay.com/photo/2018/09/17/13/06/marble-3683820_960_720.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: white;
 }
 .page3paragraph{
   padding: 10px;
@@ -123,3 +120,4 @@ main {
     transform: rotate(360deg);
   }
 }
+
